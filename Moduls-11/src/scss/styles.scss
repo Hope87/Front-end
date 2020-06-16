@@ -1,0 +1,38 @@
+$primary-white-color: red;
+$primary-color: green;
+$primary-hover: black;
+
+body {
+  background-color: $primary-color;
+}
+
+.style {
+  display: inline-block;
+  text-decoration: none;
+  outline: 0;
+  font-size: 3rem;
+}
+.link {
+  @extend .style;
+}
+%button {
+  display: inline-block;
+  position: absolute;
+  padding: 10px;
+}
+
+.button-on {
+  @extend %button;
+  background-color: black;
+}
+.button-off {
+  @extend %button;
+  background-color: green;
+}
+@mixin font-settings($size, $height) {
+  font-size: $size;
+  line-height: $height;
+}
+.text {
+  @include font-settings(2rem, 1.2);
+}
