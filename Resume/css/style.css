@@ -93,7 +93,7 @@ body {
 
 .sidebar {
   background-color: #1e2939;
-  width: 37rem; }
+  width: 32rem; }
   @media only screen and (max-width: 50em) {
     .sidebar {
       display: flex;
@@ -108,8 +108,7 @@ body {
       margin-bottom: 2rem;
       margin-top: 2rem; } }
   .sidebar img {
-    width: 37rem;
-    height: 35rem;
+    width: 32rem;
     margin-top: 4rem; }
     @media only screen and (max-width: 37.5em) {
       .sidebar img {
