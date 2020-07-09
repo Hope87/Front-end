@@ -1,0 +1,19 @@
+.education {
+  margin-top: 5rem;
+
+  &__university {
+    font-size: 1.6rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    color: $color-orange;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &__faculty {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    margin-bottom: 1.5rem;
+  }
+}
