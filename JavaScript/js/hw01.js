@@ -87,13 +87,13 @@
 
 //HW6 =======================================================
 
-// let input = "";
+// let input;
 // let total = 0;
 
 // do {
-//   input = prompt("set new number");
+//   input = prompt("Введите число");
 //   total = total + Number(input);
 // } while (input !== null);
 
-// console.log("total", total);
+// alert(`'Общая сумма чисел равна' ${total}`);
 
