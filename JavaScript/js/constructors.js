@@ -195,7 +195,7 @@
 //   }
 
 //   showAll() {
-//     super.move();
+//     this.move();
 //     this.bark();
 //   }
 // }
