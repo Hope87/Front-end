@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cuprum&display=swap"
+      rel="stylesheet"
+    />
+    <title>Menu</title>
+  </head>
+  <body>
+    <header>
+      <nav class="menu">
+        <input type="checkbox" name="toggle" id="menu" class="toggleMenu" />
+        <label for="menu" class="toggleMenu">Меню</label>
+
+        <ul>
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              name="toggle"
+              class="toggleSubmenu"
+              id="sub_m1"
+            />
+            <a href="#">Продукция</a>
+            <label for="sub_m1" class="toggleSubmenu"></label>
+            <ul>
+              <li><a href="#">Одежда</a></li>
+              <li>
+                <input
+                  type="checkbox"
+                  name="toggle"
+                  class="toggleSubmenu"
+                  id="sub_m1-1"
+                />
+                <a href="#">Электроника</a>
+                <label for="sub_m1-1" class="toggleSubmenu"></label>
+                <ul>
+                  <li><a href="#">Камеры</a></li>
+                  <li><a href="#">Компьютеры</a></li>
+                  <li><a href="#">Телефоны</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Продукты питания</a></li>
+              <li><a href="#">Инструменты</a></li>
+              <li><a href="#">Быт.химия</a></li>
+            </ul>
+          </li>
+          <li>
+            <input
+              type="checkbox"
+              name="toggle"
+              class="toggleSubmenu"
+              id="sub_m2"
+            />
+            <a href="#">Услуги</a>
+            <label for="sub_m2" class="toggleSubmenu"></label>
+            <ul>
+              <li><a href="#">Услуга 1</a></li>
+              <li><a href="#">Услуга 2</a></li>
+              <li><a href="#">Услуга 3</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

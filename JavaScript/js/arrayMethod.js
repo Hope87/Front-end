@@ -252,36 +252,47 @@
 
 // console.log(result);
 
-//==============================================================================
-// const users = [
-//   { id: "000", name: "Mango", likes: 5, isActive: true },
-//   { id: "001", name: "Poly", likes: 60, isActive: false },
-//   { id: "002", name: "Ajax", likes: 35, isActive: true },
-//   { id: "003", name: "Chelsey", likes: 120, isActive: false },
-// ];
+//=============================================================================
+/**
+ *  Напиши класс Storage, который будет создавать объекты для управления складом товаров. При вызове будет получать один аргумент - начальный массив товаров, и записывать его в свойство items.
 
-// // const fnFilter = (arr) => arr.filter((elem) => elem.isActive);
+ Добавь методы класса:
+ getItems() - возвращает массив текущих товаров
+ addItem(item) - получает новый товар и добавляет его к текущим
+ removeItem(item) - получет товар и, если он есть, удаляет его из текущих
+ */
 
-// // const fnMap = (arr, id, value) =>
-// //   arr.map((elem) => {
-// //     return elem.id === id ? { ...elem, likes: elem.likes + value } : elem;
-// //   });
+// class Storage {
+//   constructor(array) {
+//     this.items = array;
+//   }
 
-// // const fnFind = (arr, id) => arr.find((elem) => elem.id === id);
+//   getItems() {
+//     return this.items;
+//   }
 
-// // const fnFi = fnFind(users, "002");
-// // const fnF = fnFilter(users);
-// // const fnM = fnMap(users, "002", 20);
+//   addItem(item) {
+//     this.items.push(item);
+//   }
 
-// // console.log(fnFi);
-// // console.log(fnF);
-// // console.log(fnM);
-// // console.log(users);
+//   removeItem(item) {
+//     const filteredArray = this.items.filter((el) => el !== item);
+//     this.items = filteredArray;
+//   }
+// }
 
-// // elem.id === id ? { ...elem, likes: elem.likes + value } : elem
+// const storage = new Storage([
+//   "Нанитоиды",
+//   "Пролонгер",
+//   "Железные жупи",
+//   "Антигравитатор",
+// ]);
+// const items = storage.getItems();
+// console.table(items); // [ "Нанитоиды", "Пролонгер", "Железные жупи", "Антигравитатор" ]
 
-// const fn = (arr) => arr.reduce((acc, elem) => acc + elem.likes, 0);
+// storage.addItem("Дроид");
+// console.table(storage.items); // [ "Нанитоиды", "Пролонгер", "Железные жупи", "Антигравитатор", "Дроид" ]
 
-// const fnR = fn(users);
-// console.log(fnR);
+// storage.removeItem("Пролонгер");
+// console.table(storage.items); // [ "Нанитоиды", "Железные жупи", "Антигравитатор", "Дроид" ]
 

@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 1632px;
+  margin: 0 auto;
+}
+.main-menu {
+  width: 1632px;
+  height: 91px;
+  margin: 0 auto;
+}
+.site-logo {
+  margin-left: 276px;
+  margin-top: 38px;
+}
+.site-navigator {
+  list-style: none;
+  text-align: center;
+  text-transform: uppercase;
+  float: right;
+  margin-right: 245px;
+  margin-top: 38px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.site-navigator a {
+  text-decoration: none;
+  color: #312727;
+}
+.navigator-item {
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  padding: 0 15px;
+}
+li:first-child {
+  padding-left: 0;
+}
+.site-navigator :hover {
+  color: #73cfba;
+}
+/*site-photo*/
+.main-photo {
+  display: inline-block;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  width: 1632px;
+  height: 601px;
+}
+.site-photo {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.background {
+  position: absolute;
+  width: 1632px;
+  height: 601px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.slider-raw {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 960px;
+}
+.left-photo-button {
+  width: 104px;
+  height: 104px;
+  background-color: #55a290;
+  display: inline-block;
+}
+.text {
+  display: inline-block;
+  width: 740px;
+  text-align: center;
+}
+.photo-title {
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+  width: 750px;
+}
+.photo-text {
+  font-size: 23px;
+  display: inline;
+  color: #ffffff;
+  width: 470px;
+}
+.right-photo-button {
+  width: 104px;
+  height: 104px;
+  background-color: #1abc9c;
+  display: inline-block;
+}
+/*site collection*/
+.collection-section {
+  width: 1632px;
+  height: 676px;
+}
+.collection-title {
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+  color: #515151;
+  text-align: center;
+  margin-top: 100px;
+}
+hr {
+  border: none;
+  background-color: #1abc9c;
+  height: 7px;
+  width: 164px;
+  margin: 0 auto;
+  margin-top: 32px;
+}
+.collection-list {
+  margin-top: 82px;
+  width: 1140px;
+  margin: 82px auto;
+}
+.collection-item {
+  width: 255px;
+  height: 296px;
+  display: inline-block;
+  margin: 0 15px;
+  position: relative;
+}
+li:first-child {
+  margin-left: 0;
+}
+.collection-item:hover .background-photo {
+  opacity: 1;
+}
+.collection-item:hover .icon-two {
+  background-color: #1abc9c;
+  opacity: 1;
+}
+.collection-item:hover .item-name {
+  background-color: #1abc9c;
+}
+.collection-item:hover .item-prise {
+  background-color: #7fd9c7;
+}
+.prise-row {
+  width: 255px;
+  position: relative;
+}
+.item-name {
+  width: 201px;
+  height: 40px;
+  background-color: #323232;
+  font-size: 18px;
+  color: #ffffff;
+  float: left;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding: 14px 0 13px 14px;
+}
+.item-prise {
+  width: 54px;
+  height: 40px;
+  background-color: #8c8c8c;
+  font-size: 18px;
+  color: #ffffff;
+  float: right;
+  text-align: center;
+  padding: 12px 0;
+}
+.background-photo {
+  position: absolute;
+  width: 235px;
+  height: 235px;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 10px;
+  left: 10px;
+  opacity: 0;
+}
+.icon-one {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  outline: 1px solid white;
+  top: 53px;
+  left: 32px;
+  border: none;
+  opacity: 0.5;
+  background-color: #737373;
+}
+.icon-two {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  outline: 1px solid white;
+  top: 53px;
+  left: 95px;
+  border: none;
+  opacity: 0.5;
+  background-color: #737373;
+}
+.icon-three {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  outline: 1px solid white;
+  top: 53px;
+  left: 158px;
+  border: none;
+  opacity: 0.5;
+  background-color: #737373;
+}
+.icon-four {
+  position: absolute;
+  width: 176px;
+  height: 50px;
+  top: 112px;
+  left: 32px;
+  border: none;
+  font-size: 14px;
+  color: #ebebeb;
+  text-transform: uppercase;
+  background-color: #323232;
+}
+.cart {
+  padding: 0 10px 0 0;
+}
+.signature {
+  width: 1632px;
+  height: 90px;
+  text-align: center;
+}
+.colortext {
+  color: #409989;
+}
