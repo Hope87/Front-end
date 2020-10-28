@@ -1,4 +1,4 @@
-.box-btn {
+/* .box-btn {
   display: inline-block;
   padding: 10px 50px;
   border: 1px solid green;
@@ -7,4 +7,20 @@
 .menu li {
   list-style: none;
   color: green;
+} */
+
+/*
+  HW6
+*/
+
+/* #validation-input {
+  border: 3px solid #bdbdbd;
 }
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+} */

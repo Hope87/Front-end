@@ -121,7 +121,6 @@
  Добавь слушатели кликов на кнопки, вызовы функций и обновление интерфейса
  */
 
-// const counter = document.querySelector("#counter");
 // const span = document.querySelector("#value");
 // const btnDecrement = document.querySelector('button[data-action="decrement"]');
 // const btnIncrement = document.querySelector('button[data-action="increment"]');
@@ -157,4 +156,42 @@
 //   if (text === 0) {
 //     span.textContent = textSp;
 //   }
+// }
+
+/**
+ * Напиши скрипт, который бы при потере фокуса на инпуте, проверял его содержимое на правильное количество символов.
+ * 
+ * Сколько символов должно быть в инпуте, указывается в его атрибуте            data-length.
+    Если введено подходящее количество, то border инпута становится зеленым, если неправильное - красным.
+   Для добавления стилей, используй CSS-классы valid и invalid.
+ */
+
+// const input = document.querySelector("#validation-input");
+// const lengthValue = Number(input.dataset.length);
+
+// input.addEventListener("blur", fn);
+
+// function fn(e) {
+//   const symbolLength = e.target.value.length;
+
+//   if (symbolLength === lengthValue) {
+//     input.classList.remove("invalid");
+//     input.classList.add("valid");
+//   } else {
+//     input.classList.remove("valid");
+//     input.classList.add("invalid");
+//   }
+// }
+
+/**
+ * Напиши скрипт, который реагирует на изменение значения input#font-size-control (событие input) и изменяет инлайн-стиль span#text обновляя свойство font-size. В результате при перетаскивании ползунка будет меняться размер текста.
+ */
+
+// const input = document.querySelector("#font-size-control");
+// const span = document.querySelector("#text");
+
+// input.addEventListener("input", handleInputRange);
+
+// function handleInputRange(e) {
+//   span.style.fontSize = e.currentTarget.value + "px";
 // }
