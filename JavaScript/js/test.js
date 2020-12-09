@@ -115,4 +115,16 @@
 // Promise.all([resultA, resultB]).then((data) => console.log(data))
 // Promise.race([resultA, resultB]).then((data) => console.log(data))
 
-//========================================================================================
+//=====================SWAPI API===================================================================
+
+// const url = "https://swapi.dev/api/"
+
+// const getResault = async (number) => {
+//     const response = await fetch(url + `planets/?page=${number}`)
+//     const planets = response.json()
+    
+    
+//     return planets
+// }
+
+// getResault(1).then(planets => console.log(planets))

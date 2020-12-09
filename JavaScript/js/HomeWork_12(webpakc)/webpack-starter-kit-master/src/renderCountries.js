@@ -3,7 +3,6 @@ import tamplate from './tamplates/tamplate.hbs';
 const listCountries = document.querySelector(".countries-list")
 
 function renderCountries(countries){
-console.log("renderCountries -> countries", countries)
 
     if(countries.length > 1){
     clearForm();

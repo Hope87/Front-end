@@ -24,3 +24,29 @@
 #validation-input.invalid {
   border-color: #f44336;
 } */
+
+/* html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.profile-container {
+  width: 250px;
+  height: 250px;
+  margin: 100px auto;
+  border: 1px solid black;
+}
+
+.box-btn {
+  width: 250px;
+  display: block;
+  padding: 10px 50px;
+  border: 1px solid black;
+  border-radius: 100px;
+  margin: 0 auto;
+  background-color: palegreen;
+} */
