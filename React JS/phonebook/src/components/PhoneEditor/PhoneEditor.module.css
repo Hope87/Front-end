@@ -1,0 +1,34 @@
+.form {
+  width: 480px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.label {
+  width: 420px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.input {
+  display: block;
+  width: 95%;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 15px;
+}
+.input:focus {
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.button {
+  font-size: 18px;
+  width: 88%;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: blue;
+  color: #fff;
+}
