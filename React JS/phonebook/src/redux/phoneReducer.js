@@ -1,4 +1,4 @@
-import { combineReducers, createStore } from "redux";
+import { combineReducers } from "redux";
 import { createReducer } from "@reduxjs/toolkit";
 import * as phoneActions from "./phoneActions";
 

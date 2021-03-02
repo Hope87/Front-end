@@ -11,6 +11,7 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.7.1",
     "axios": "^0.21.1",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
     "react-alert": "^7.0.2",
     "react-alert-template-basic": "^1.0.0",
@@ -29,8 +30,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server --port 4040 --delay 200 --watch ./src/server/db.json"
+    "server": "json-server --port 4040 --delay 200 --watch ./src/server/db.json",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
+  "homepage": " https://github.com/Hope87/Front-end",
   "eslintConfig": {
     "extends": [
       "react-app",
